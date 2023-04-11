@@ -135,7 +135,10 @@ h1,h2,h3,h4,h5,h6,p,ul{
     align-items: center;
     justify-content: center;
 }
-.media-pic:hover,.media-pic:focus{
+.media-pic:hover{
+    background-color: var(--bth-hover-color);
+}
+.media-pic:focus{
     background-color: var(--bth-hover-color);
 }
 .media-logo{
