@@ -52,6 +52,7 @@ body{
     --bth-secondary-color: #e7e9fc;
     --second-white-text: #f4f4fd;
     --bottom-color: #e7e9fc;
+    --icon-color: #afb1b8;
 }
 .visually-hidden {
     position: absolute;
@@ -141,11 +142,10 @@ h1,h2,h3,h4,h5,h6,p,ul{
     fill: var(--second-white-text);
 }
 .holder{
-    padding: 32px 16px;
-    text-align: center;
-    border-radius: 0px 0px 4px 4px;
     padding-top: 32px;
     padding-bottom: 32px;
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
 }
 .fase-list{
     display: flex;
@@ -158,6 +158,35 @@ h1,h2,h3,h4,h5,h6,p,ul{
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+}
+.section-fifth{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.icon-list{
+    display: flex;
+    gap: 24px;
+}
+.icon-item{
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+.icon-pic{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--icon-color);
+}
+.icon-color:hover,.icon-color:focus{
+    border-color: var(--bth-hover-color);
+    color: var(--bth-hover-color);
+}
+.icon-logo{
+    fill: currentColor;
 }
 .logo-link{
     font-family: "Raleway",sans-serif;
@@ -333,6 +362,42 @@ display: block;
     padding: 32px 16px;
     border: 1px solid var(--bottom-color);
     border-top: none;
+}
+.footer-box{
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+}
+.icon-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    margin-bottom: 16px;
+}
+.logo-list{
+    display: flex;
+    gap: 16px;
+}
+.logo-item{
+    width: 40px;
+    height: 40px;
+}
+.logo-pic{
+    width: 100%;
+    height: 100%;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-pic:hover,.logo-pic:focus{
+    background-color: #31d0aa
+}
+.logo-image{
+    fill: var(--second-white-text);
 }
 img{
     display: block;
