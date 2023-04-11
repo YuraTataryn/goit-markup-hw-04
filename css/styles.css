@@ -181,7 +181,11 @@ h1,h2,h3,h4,h5,h6,p,ul{
     justify-content: center;
     color: var(--icon-color);
 }
-.icon-color:hover,.icon-color:focus{
+.icon-pic:hover{
+    border-color: var(--bth-hover-color);
+    color: var(--bth-hover-color);
+}
+.icon-pic:focus{
     border-color: var(--bth-hover-color);
     color: var(--bth-hover-color);
 }
@@ -278,7 +282,7 @@ display: block;
 .subject{
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11;
+        line-height: 1.1;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
