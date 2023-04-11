@@ -3,7 +3,6 @@
 *::after{
     box-sizing: border-box;
 }
-
 .header{
     display: flex;
     align-items: center;
@@ -74,8 +73,8 @@ h1,h2,h3,h4,h5,h6,p,ul{
     background: var(--title-text-color);
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
-     url("../images/hero\ image-2.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+     url("../images/people-office\ 1-2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -87,48 +86,21 @@ h1,h2,h3,h4,h5,h6,p,ul{
 .section-second{
     padding: 120px 0;
 }
+.text-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--second-white-text);
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 .text-list{
     display: flex;
     gap: 24px;
 }
 .item-text{
     width: calc((100% - 72px) / 4);
-}
-.icon-strategy::before{
-    display: block;
-        content: "";
-        height: 112px;
-        background-image: url();
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: var(--second-white-text);
-}
-.icon-punctuality::before{
-    display: block;
-        content: "";
-        height: 112px;
-        background-image: url();
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: var(--second-white-text);
-}
-.icon-diligence::before{
-    display: block;
-        content: "";
-        height: 112px;
-        background-image: url();
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: var(--second-white-text);
-}
-.icon-technologies::before{
-    display: block;
-        content: "";
-        height: 112px;
-        background-image: url();
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: var(--second-white-text);
 }
 .section-third{
     padding-bottom: 120px;
