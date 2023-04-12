@@ -192,6 +192,9 @@ h1,h2,h3,h4,h5,h6,p,ul{
     border-color: var(--bth-hover-color);
     color: var(--bth-hover-color);
 }
+.icon-logo{
+    fill: currentColor;
+}
 .logo-link{
     font-family: "Raleway",sans-serif;
     font-weight: 800;
