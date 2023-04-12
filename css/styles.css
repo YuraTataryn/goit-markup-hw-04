@@ -373,6 +373,7 @@ display: block;
 .footer-box{
     display: flex;
     align-items: baseline;
+    margin-right: 120px;
 }
 .footer-container{
     margin-right: 120px;
