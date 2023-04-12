@@ -375,8 +375,8 @@ display: block;
     align-items: baseline;
     margin-right: 120px;
 }
-.footer-holder {
-    margin-left: 120px;
+.footer-container{
+    margin-right: 120px;
 }
 .icon-text{
     font-weight: 500;
