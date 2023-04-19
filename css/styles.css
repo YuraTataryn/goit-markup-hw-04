@@ -185,11 +185,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
     justify-content: center;
     color: var(--section-icon-color);
 }
-.icon-pic:hover{
-    border-color: var(--bth-hover-color);
-    color: var(--bth-hover-color);
-}
-.icon-pic:focus{
+.icon-pic:hover,.icon-pic:focus{
     border-color: var(--bth-hover-color);
     color: var(--bth-hover-color);
 }
