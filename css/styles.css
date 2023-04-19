@@ -53,6 +53,7 @@ body{
     --second-white-text: #f4f4fd;
     --bottom-color: #e7e9fc;
     --icon-color: #afb1b8;
+    --section-icon-color: #8e8f99;
 }
 .visually-hidden {
     position: absolute;
@@ -177,12 +178,12 @@ h1,h2,h3,h4,h5,h6,p,ul{
 .icon-pic{
     width: 100%;
     height: 100%;
-    border: 1px solid #8e8f99;
+    border: 1px solid var(--section-icon-color);
     border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--icon-color);
+    color: var(--section-icon-color);
 }
 .icon-pic:hover{
     border-color: var(--bth-hover-color);
